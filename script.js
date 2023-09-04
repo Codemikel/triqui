@@ -281,11 +281,11 @@ function myfunc() {
 
 		if (flag == 1) {
 			document.getElementById('print')
-				.innerHTML = "Player X Turn";
+				.innerHTML = "Turno jugador 1";
 		}
 		else {
 			document.getElementById('print')
-				.innerHTML = "Player 0 Turn";
+				.innerHTML = "Turno jugador 2";
 		}
 	}
 }
